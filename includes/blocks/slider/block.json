@@ -1,0 +1,27 @@
+{
+  "name": "Sliderblock",
+  "title": "Sliderblock",
+  "description": "Hier können Sie ein Headerbil hinzufügen.",
+  "style": "block-slider",
+  "script": "block-slider",
+  "apiVersion": 2,
+  "keywords": [],
+  "acf": {
+    "mode": "edit",
+    "renderTemplate": "slider.php"
+  },
+  "styles": [],
+  "supports": {
+    "align": false,
+    "anchor": false,
+    "alignContent": false,
+    "color": {
+      "text": false,
+      "background": true,
+      "link": false
+    },
+    "alignText": false,
+    "fullHeight": false
+  },
+  "attributes": {}
+}

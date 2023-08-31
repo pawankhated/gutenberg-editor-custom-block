@@ -1,0 +1,156 @@
+/* Teaser START */
+
+.block-slider {
+  position: relative;
+}
+
+.block-slider .overlay {
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.block-slider .panel {
+  background-color: #ffffff;
+}
+
+.block-slider .panel-default {}
+
+.block-slider .panel .panel-body {
+  overflow: hidden;
+}
+
+.block-slider .panel .panel-body .myImg {
+  position: relative;
+  border: 0 none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+}
+
+.block-slider .panel .panel-body .myImg .panel-image-preview {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+}
+
+.block-slider .panel .panel-body .myImg .caption {
+  top: 5rem;
+  text-align: center;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.block-slider .panel .panel-body .myImg .caption h1 {
+  font-family: "Chivo", sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: #ffffff;
+}
+
+.block-slider .panel .panel-body .myImg .caption p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: #ffffff;
+  padding: 2rem;
+}
+
+.block-slider .panel .panel-body .myImg .caption .content .btn-con {
+  text-align: center;
+}
+
+.block-slider .panel .panel-body .myImg .caption .content .btn-con .btn-custom {
+  display: inline-block;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: .1rem;
+  line-height: 4rem;
+  padding: 0 2rem;
+  margin: 0 0.4rem 1.6rem 0;
+  color: #ffffff;
+  white-space: nowrap;
+  border: 0.2rem solid #c11819;
+  border-radius: 4px;
+  background-color: #c11819;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .block-slider .panel .panel-body .myImg .caption {
+    top: 10rem;
+  }
+
+  .block-slider .panel .panel-body .myImg .caption h1 {
+    font-size: 2.8rem;
+  }
+
+  .block-slider .panel .panel-body .myImg .caption p {
+    padding: 3rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .block-slider .panel .panel-body .myImg .caption {
+    top: 12rem;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .block-slider .panel .panel-body .myImg .caption h1 {
+    font-size: 4.2rem;
+    line-height: 4.2rem;
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .block-slider .panel .panel-body .myImg .caption p {
+    width: 65%;
+    margin: 0 auto;
+  }
+}
+
+/* XX-Large devices (large desktops, 1600px and up) */
+@media (min-width: 1600px) {
+  .block-slider .panel .panel-body .myImg .caption h1 {
+    font-size: 4.2rem;
+    line-height: 4.2rem;
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .block-slider .panel .panel-body .myImg .caption p {
+    width: 65%;
+    margin: 0 auto;
+  }
+}
+
+
+/* XX-Large devices (large desktops, 1800px and up) */
+@media (min-width: 1800px) {
+  .block-slider .panel .panel-body .myImg .caption h1 {
+    width: 45%;
+    margin: 0 auto;
+  }
+
+  .block-slider .panel .panel-body .myImg .caption p {
+    width: 45%;
+    margin: 0 auto;
+  }
+}
+
+
+/* Teaser END */
